@@ -26,10 +26,5 @@
       "src": "/.*",
       "dest": "/public/index.html"
     }
-  ],
-  "env": {
-    "MONGO_URI": "@MONGO_URI",
-    "GEMINI_API_KEY": "@GEMINI_API_KEY",
-    "JWT_SECRET": "@JWT_SECRET"
-  }
+  ]
 }
