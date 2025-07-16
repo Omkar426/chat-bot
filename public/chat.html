@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+  <div class="max-w-2xl mx-auto py-10 px-4">
+    <h1 class="text-2xl font-bold mb-6">Chat with Bot</h1>
+    <div id="chatContainer" class="bg-white border rounded p-4 h-96 overflow-y-auto mb-4"></div>
+    <form id="chatForm" class="flex gap-2">
+      <input id="message" type="text" placeholder="Type your message..." class="flex-1 px-4 py-2 border rounded" required>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+    </form>
+  </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 h-screen flex flex-col">
+  <div class="max-w-2xl w-full mx-auto flex flex-col h-full py-6 px-4">
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-2xl font-bold">Chat with Bot</h1>
+      <button id="clearChatBtn" class="text-sm text-red-600 hover:underline">Clear Chat</button>
+    </div>
+
+    <!-- Chat Scrollable Area -->
+    <div id="chatContainer" class="bg-white border rounded p-4 overflow-y-auto flex-1 mb-4">
+      <!-- Messages go here -->
+    </div>
+
+    <!-- Input Form -->
+    <form id="chatForm" class="flex gap-2">
+      <input id="message" type="text" placeholder="Type your message..." class="flex-1 px-4 py-2 border rounded" required>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
