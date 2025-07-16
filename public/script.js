@@ -1,5 +1,5 @@
 // ---------- Common Utilities ----------
-const api = (path) => `http://localhost:5000/api${path}`;
+const api = (path) => `https://chat-bot-n7ju.vercel.app/api${path}`;
 const token = localStorage.getItem('token');
 
 // ---------- LOGIN ----------
